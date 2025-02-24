@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicaciones Web Progresivas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            background-color: #f8e1c1; 
+        }
+
+        .top-bar {
+            background-color: #31ace9; 
+            color: black; 
+            padding: 5px;
+            font-size: 14px;
+            text-align: center; 
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 15px; 
+            background-color: #000000; 
+            font-size: 18px; 
+            text-align: center; 
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+
+        .logo img {
+            margin-right: 5px;
+            width: 50px;
+            height: 25px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+            margin-left: -70px; 
+            justify-content: center; 
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f1f1f1; 
+            font-weight: bold;
+            font-size: 11px; 
+        }
+
+        nav a:hover {
+            color: rgb(151, 228, 151); 
+        }
+
+        .image-divider {
+            width: 100%;
+            height: 2px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        .center-image {
+            width: 100%;
+            height: 200px; 
+            background-image: url('imagenes/HERRAMIENTAS.jpg'); 
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .center-image h1 {
+            color: white; 
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between; 
+            gap: 30px;
+            margin: 30px 0;
+            flex-direction: row;
+            align-items: center; 
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content ol {
+            font-size: 16px; 
+            text-align: justify; 
+            list-style-position: inside;
+            color: black; 
+        }
+
+        .content h3 {
+            color: #00aaff;
+        }
+
+        .content strong {
+            color: #00aaff; 
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #c19a6b; 
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center; 
+        }
+
+        .image-content {
+            display: flex;
+            justify-content: space-between; 
+            gap: 30px;
+            margin: 30px 0;
+            flex-direction: row;
+            align-items: center; 
+        }
+
+        .image-content div {
+            text-align: center;
+        }
+
+        .image-content img {
+            width: 300px; 
+            height: 200px; 
+            object-fit: cover;
+            margin-bottom: 15px; 
+        }
+
+        .image-content p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">Aprende sobre las PWA</div>
+
+    <header>
+        <div class="logo">
+            <img src="imagenes/PWA5.png" alt="Logo PWA">
+            <span>Aplicaciones Web Progresivas</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">PWA</a></li>
+                <li><a href="ventajas.html">Ventajas</a></li>
+                <li><a href="desventajas.html">Desventajas</a></li>
+                <li><a href="caracteristicas.html">Características</a></li>
+                <li><a href="arquitectura.html">Arquitectura</a></li>
+                <li><a href="ejemplos.html">Ejemplos</a></li>
+                <li><a href="monetizacion.html">Monetización</a></li>
+                <li><a href="tecnologias.html">Tecnologías que emplea</a></li>
+                <li><a href="desarrollo.html">Desarrollo de las PWA</a></li>
+                <li><a href="herramientas.html">Herramientas y Recursos</a></li>
+                <li><a href="seguridad.html">Seguridad</a></li>
+                <li><a href="gestores.html">Gestores de Contenido WEB</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="center-image">
+        <h1>Herramientas y Recursos</h1>
+    </div>
+
+    <main>
+        <div class="image-divider"></div>
+
+        <section class="content">
+            <ol>
+                <li><strong>Workbox:</strong> Herramientas y librerías para gestionar el caché y los service workers en PWAs.</li>
+                <li><strong>Google Lighthouse:</strong> Una herramienta para auditar y optimizar el rendimiento y la accesibilidad de tu PWA.</li>
+                <li><strong>Progressive Web App Checklist:</strong> Guías y listas de verificación para asegurarse de que la PWA cumpla con los requisitos esenciales.</li>
+            </ol>
+
+            <div class="image-content">
+                <div>
+                    <img src="imagenes/HERRAMIENTAS2.png" alt="Tecnologías">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 Aplicaciones Web Progresivas, Yael Andrés Vázquez Camas</p>
+    </footer>
+</body>
+</html>
